@@ -1,0 +1,79 @@
+@charset "UTF-8";
+html {
+  font-family: sans-serif;
+}
+html * {
+  box-sizing: border-box;
+}
+body{
+ text-align:center;
+ font-size:90%;
+ background-size:cover;
+}
+.wrapper {
+  margin: 0 auto 0 auto;
+  max-width: 960px;
+ }
+.banner{
+  margin: 20px 0 20px 0;
+  width:720px;
+  line-height: 0;
+  text-align: center;
+}
+.nav ul{
+  display:flex;
+  justify-content:space-around;
+  list-style:none;
+  width:100%;
+  padding:0px;
+  margin:0px;
+  border:1px solid #abbbbb;
+  border-radius:10px;
+  background: #abbbbb;
+}
+.main {
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+  width:700px;
+}
+.ideas{
+  border:1px solid #000000;
+  background:#abbbbb;
+}
+.ideas2{
+  border:1px solid #000000;
+  background:#abbbbb;
+}
+.ideas3{
+  border:1px solid #000000;
+  background:#abbbbb;
+}
+.text {
+  border: 1px solid #000000;
+}
+.text2 {
+  border: 1px solid #000000;
+}
+.table{
+  border-collapse: collapse;
+}
+.table th, .table td {
+  padding: 8px;
+  border: 1px solid #000000;
+  text-align:left;
+}
+.table th {
+  background-color: #abbbbb;
+  width: 90px;
+  color: #3f5170;
+  vertical-align: top;
+}
+.tama-toshin{
+  margin: 20px;
+  border-bottom: 1px solid #000000;
+}
+.conclusion-script{
+  margin: 20px;
+  border-bottom: 1px solid #000000;
+}
